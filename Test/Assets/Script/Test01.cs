@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class Test01 : MonoBehaviour {
@@ -19,6 +19,9 @@ public class Test01 : MonoBehaviour {
 	void TestWindow1 (int WindowID)
 	{
 		GUI.Label(new Rect(10f, 30f, 50f , 30f), "", sty_part1);
+		
+		//在这里新建了一个按钮
+		GUI.Button(new Rect (100f, 100f, 100f, 50f), "中文字体");
 		GUI.DragWindow();
 	}
 	
