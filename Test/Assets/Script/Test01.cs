@@ -22,6 +22,8 @@ public class Test01 : MonoBehaviour {
 		
 		//在这里新建了一个按钮
 		GUI.Button(new Rect (100f, 100f, 100f, 50f), "中文字体");
+		
+		GUI.Button(new Rect (100f, 200f, 100f, 50f), "中文字体");
 		GUI.DragWindow();
 	}
 	
