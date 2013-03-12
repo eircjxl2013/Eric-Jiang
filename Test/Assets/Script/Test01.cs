@@ -4,7 +4,7 @@ using System.Collections;
 public class Test01 : MonoBehaviour {
 	
 	public GUIStyle sty_part1;
-	
+	public GUIStyle sty_part2;    //中文可以识别吗？
 	Rect win_rect1 = new Rect(300f, 300f, 400f, 300f);
 	
 	// Use this for initialization
