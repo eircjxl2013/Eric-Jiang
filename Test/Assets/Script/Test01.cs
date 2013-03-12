@@ -9,7 +9,7 @@ public class Test01 : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-	
+		sty_part1.normal.background = (Texture2D)Resources.Load("Yellow");
 	}
 	
 	void OnGUI (){
@@ -18,7 +18,7 @@ public class Test01 : MonoBehaviour {
 	
 	void TestWindow1 (int WindowID)
 	{
-		
+		GUI.Label(new Rect(10f, 30f, 50f , 30f), "", sty_part1);
 		GUI.DragWindow();
 	}
 	
